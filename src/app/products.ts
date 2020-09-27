@@ -12,5 +12,9 @@ export const products = [{
     name: 'StdPhone',
     price: 89,
     description: 'Le téléphone qui fait ce qu\'on lui demande'
+  },
+  {
+    name: 'bousePhone',
+    price: 19,
   }
-  ];
+];

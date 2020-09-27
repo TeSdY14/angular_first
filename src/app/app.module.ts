@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { ProductAlertComponent } from './product-alert/product-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    TopBarComponent
+    TopBarComponent,
+    ProductAlertComponent
   ],
   imports: [
     BrowserModule,
